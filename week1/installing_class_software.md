@@ -30,17 +30,25 @@ Install the needed packages for this course (these may already be installed with
 - BeautifulSoup: `conda install -c anaconda beautifulsoup4`
 
 ## Clone the course demos repo to your computer
-The demo notebooks for this course are saved in a [GitHub directory](https://github.com/summercomputinginstitute/demo_notebooks).  To download them to your computer, you can clone them from GitHub by doing the following:  
+The demo notebooks for this course are saved in a [GitHub directory](https://github.com/AIPI520/aipi520_repo).  To download them to your computer, you can clone them from GitHub by doing the following:  
 - Use the command line to navigate to the folder on your computer where you would like to store them
-- Run the following to clone the *demo_notebooks* repository to your computer: `git clone https://github.com/summercomputinginstitute/demo_notebooks.git`
+- Run the following to clone the *demo_notebooks* repository to your computer: `git clone https://github.com/AIPI520/aipi520_repo.git`
 
 
-## Launch Jupyter Notebooks and start work!  
+## Open a development environment and start work
+Now that you have the necessary packages installed and have cloned the source material onto your computer you are ready to start work.  If you are working locally on your computer, you can choose which development environment you would like to use.  There are several options, but I recommend using either Jupyter Notebooks (which is a notebook editor that runs in the browser) or Microsoft's VSCode (a free IDE that has good support for notebooks).
+
+To use Jupyter Notebooks:
 - At the command line, type `jupyter notebook`
 - The jupyter screen will automatically open in your browser at *localhost:8888/*  
 - Navigate to the folder on your laptop where you wish to create and save your notebook and click at top right *New -> Notebook (Python 3)* to open a new notebook.  Then click *File -> Rename* to give it a name.
 - Or, if you are opening an assignment template notebook you have cloned from GitHub (see assignment_instructions document), navigate to the local folder and open the notebook
 - Notebooks should auto-save, but be sure to manually save when done.  To exit out of jupyter notebooks, close the windows in your browser, and hit `ctrl-c` from your command line.
+
+To use VSCode:
+- [Download VSCode](https://code.visualstudio.com) for free 
+- Open VSCode and then select File -> Open and open a notebook (.ipynb) file
+- Be sure to manually save your work periodically
 
 # Option 2: Work in the cloud using Google Colab
 Google Colaboratory is a free, cloud-based platform for creating and running code notebook files. The advantages of using Colab relative to your own laptop are that it requires no configuration (all needed libraries should already be pre-installed) and you get free access to GPUs to accelerate model training. Colab also integrates directly with GitHub so you can load notebooks from GitHub directly into Colab to edit and then push them back to GitHub when done.
