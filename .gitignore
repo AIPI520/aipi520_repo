@@ -2,7 +2,7 @@
 
 **/solutions/*
 **/config.py
-**/ogreg_model.py
+**/logreg_model.py
 
 __pycache__
 .DS_Store
