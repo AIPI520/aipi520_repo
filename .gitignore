@@ -3,6 +3,7 @@
 **/solutions/*
 **/config.py
 **/logreg_model.py
+**/aipi520_env/*
 
 __pycache__
 .DS_Store
